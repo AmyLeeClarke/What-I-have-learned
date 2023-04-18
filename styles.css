@@ -2,10 +2,26 @@ body {
     background-color: #344e41;
 }
 
+hr {
+    border-style: none;
+}
+
 h1 {
     margin-right: 80%;
+    width: 400px;
 }
 
 #dayone {
+    margin-left: 10px;
+    width: 2000px;
     color: #dad7cd;
+    text-align: left;
+
+}
+
+.employee {
+    position: fixed;
+    width: 500px;
+    margin-top: 375px;
+
 }
