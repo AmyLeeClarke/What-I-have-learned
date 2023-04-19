@@ -11,17 +11,60 @@ h1 {
     width: 400px;
 }
 
-#dayone {
+
+
+#one {
     margin-left: 10px;
     width: 2000px;
     color: #dad7cd;
     text-align: left;
+}
+
+#two {
+    margin-left: 10px;
+    width: 2000px;
+    color: #dad7cd;
+    text-align: left;
+}
+
+#three {
+    margin-left: 10px;
+    width: 2000px;
+    color: #dad7cd;
+    text-align: left;
+}
+
+#four {
+    margin-left: 10px;
+    width: 2000px;
+    color: #dad7cd;
+    text-align: left;
+}
+
+
+
+
+
+.employee {
+    position: relative;
+    width: 500px;
+}
+
+.book {
+    position: relative;
+    width: 500px;
 
 }
 
-.employee {
-    position: fixed;
+.book2 {
+    position: relative;
+    width: 800px;
+    margin-bottom: 10px;
+
+}
+
+.book3 {
+    position: relative;
     width: 500px;
-    margin-top: 375px;
 
 }
