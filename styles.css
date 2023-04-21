@@ -3,7 +3,11 @@ body {
 }
 
 hr {
-    border-style: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+
 }
 
 h1 {
@@ -48,6 +52,12 @@ h1 {
     text-align: left;
 }
 
+#six {
+    margin-left: 10px;
+    width: 2000px;
+    color: #dad7cd;
+    text-align: left;
+}
 
 
 
@@ -76,6 +86,32 @@ h1 {
 }
 
 .concat {
+    position: relative;
+    width: 500px;
+}
+
+.list2 {
+    position: relative;
+    margin-left: 200px;
+    margin-top: -90px;
+}
+
+.replace {
+    position: relative;
+    width: 500px;
+}
+
+.charlength {
+    position: relative;
+    width: 600px;
+}
+
+.blurb {
+    position: relative;
+    width: 700px;
+}
+
+.stock {
     position: relative;
     width: 500px;
 }
