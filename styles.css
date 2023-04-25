@@ -59,6 +59,13 @@ h1 {
     text-align: left;
 }
 
+#seven {
+    margin-left: 10px;
+    width: 1700px;
+    color: #dad7cd;
+    text-align: left;
+}
+
 
 
 .employee {
@@ -112,6 +119,11 @@ h1 {
 }
 
 .stock {
+    position: relative;
+    width: 500px;
+}
+
+.selen {
     position: relative;
     width: 500px;
 }
