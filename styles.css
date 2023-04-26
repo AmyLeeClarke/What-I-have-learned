@@ -65,7 +65,12 @@ h1 {
     color: #dad7cd;
     text-align: left;
 }
-
+#eight {
+    margin-left: 10px;
+    width: 1700px;
+    color: #dad7cd;
+    text-align: left;
+}
 
 
 .employee {
@@ -124,6 +129,11 @@ h1 {
 }
 
 .selen {
+    position: relative;
+    width: 500px;
+}
+
+.vinted {
     position: relative;
     width: 500px;
 }
