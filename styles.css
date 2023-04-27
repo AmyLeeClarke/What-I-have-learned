@@ -72,6 +72,12 @@ h1 {
     text-align: left;
 }
 
+#nine {
+    margin-left: 10px;
+    width: 1700px;
+    color: #dad7cd;
+    text-align: left;
+}
 
 .employee {
     position: relative;
@@ -134,6 +140,21 @@ h1 {
 }
 
 .vinted {
+    position: relative;
+    width: 500px;
+}
+
+.order_by {
+    position: relative;
+    width: 700px;
+}
+
+.like {
+    position: relative;
+    width:600px;
+}
+
+.%_ {
     position: relative;
     width: 500px;
 }
