@@ -16,68 +16,95 @@ h1 {
 }
 
 
+.intro {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
 
 #one {
     margin-left: 10px;
-    width: 2000px;
+    width: 1800px;
     color: #dad7cd;
     text-align: left;
+    font-size: 25px;
 }
 
 #two {
     margin-left: 10px;
-    width: 2000px;
+    width: 1800px;
     color: #dad7cd;
     text-align: left;
+    font-size: 25px;
 }
 
 #three {
     margin-left: 10px;
-    width: 2000px;
+    width: 1800px;
     color: #dad7cd;
     text-align: left;
+    font-size: 25px;
 }
 
 #four {
     margin-left: 10px;
-    width: 2000px;
+    width: 1800px;
     color: #dad7cd;
     text-align: left;
+    font-size: 25px;
 }
 
 #five {
     margin-left: 10px;
-    width: 2000px;
+    width: 1800px;
     color: #dad7cd;
     text-align: left;
+    font-size: 25px;
 }
 
 #six {
     margin-left: 10px;
-    width: 2000px;
+    width: 1800px;
     color: #dad7cd;
     text-align: left;
+    font-size: 25px;
 }
 
 #seven {
     margin-left: 10px;
-    width: 1700px;
+    width: 1800px;
     color: #dad7cd;
     text-align: left;
+    font-size: 25px;
 }
 #eight {
     margin-left: 10px;
-    width: 1700px;
+    width: 1800px;
     color: #dad7cd;
     text-align: left;
+    font-size: 25px;
 }
 
 #nine {
     margin-left: 10px;
-    width: 1700px;
+    width: 1800px;
     color: #dad7cd;
     text-align: left;
+    font-size: 25px;
 }
+
+#ten {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
+
+
+
 
 .employee {
     position: relative;
@@ -110,8 +137,8 @@ h1 {
 
 .list2 {
     position: relative;
-    margin-left: 200px;
-    margin-top: -90px;
+    margin-left: 270px;
+    margin-top: -130px;
 }
 
 .replace {
