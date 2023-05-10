@@ -20,7 +20,7 @@
 
     <div id="one">
         <h3>12/04/2023 (Python)</h3>
-        <p>I have learned how to use Beautiful Soup and why it is important. It is able to be used to find specific
+        <p>I have learned how to use the basics of Beautiful Soup and why it is important. It is able to be used to find specific
             items in any website so that the data can be analysed.</p>
         <hr>
     </div>
@@ -31,7 +31,7 @@
         <h3>17/04/2023 (SQL)</h3>
         <p>I have learned what MySQL and SQL is and what it does, downloaded everything I need to start this new course.
         I have learned the basics of how to create databases and tables, how to access the data inside these tables and
-            DROP/ delete them. Also how to <br>comment out code and write comments.</p></br>
+            DROP/ delete them. Also how to comment out code and write comments.</p>
         <hr>
     </div>
 
@@ -39,7 +39,9 @@
 
     <div id="three">
         <h3>18/04/2023 (SQL)</h3>
-        <p>Today I have gained the knowledge to use auto increments, not null and all the basics needed to create a database. I completed an insert exercise where I created a database for employees, this is where their name, age and employment status is kept, along with a primary key. </p>
+        <p>Today I have gained the knowledge to use auto increments, not null and all the basics needed to create a database.
+            I completed an insert exercise where I created a database for employees, this is where their name, age and
+            employment status is kept, along with a primary key. </p>
         <img class="employee" src="demo.PNG">
         <hr>
     </div>
@@ -48,7 +50,9 @@
 
     <div id="four">
         <h3>19/04/2023 (SQL)</h3>
-        <p>Today I have focused on practicing MySQL skills, creating, reading, updating and deleting (CRUD) data to get used to using the command line and workbench together. I found this fun and easy to do so far. I am currently working with data on books and authors. I have also <br>learned how to use the CONCAT() function.</br></p>
+        <p>Today I have focused on practicing MySQL skills, creating, reading, updating and deleting (CRUD) data to get
+            used to using the command line and workbench together. I found this fun and easy to do so far. I am currently
+            working with data on books and authors. I have also <br>learned how to use the CONCAT() function.</br></p>
 
         <img class="book" src="book.PNG"> <img class="book2" src="book2.PNG"> <img class="book3" src="book3.PNG">
         <hR>
@@ -57,7 +61,8 @@
 
     <div id="five">
         <h3>20/04/2023 (SQL)</h3>
-        <p>I have learned how to use the CONCAT and the SUBSTR functions both separately and combine to output initials of listed authors.</p>
+        <p>I have learned how to use the CONCAT and the SUBSTR functions both separately and combine to output initials
+            of listed authors.</p>
         <img class="concat" src="concat.PNG">
         <hr>
     </div>
@@ -65,7 +70,8 @@
 
     <div id="six">
         <h3>21/04/2023 (SQL)</h3>
-        <p>Today I have learned a lot of different string functions and put them into practice using the book_shop example I started with. These string functions include:</p>
+        <p>Today I have learned a lot of different string functions and put them into practice using the book_shop example
+            I started with. These string functions include:</p>
         <div class="list">
             <ul>
                 <li>Upper and lower case</li>
@@ -178,15 +184,34 @@
         so that I could analyse the data set as a whole. I then created a month column which would display the month,
         as a number, which will allow me to see them as a group later on. I then ran into a couple of problems which
         were solved by the use of static overflow. The problems were that some columns has a NaN (Not a Number)
-        as a whole column which I was able to group together to remove. This wasn't allowing m,e to multiply the amount
+        as a whole column which I was able to group together to remove. This wasn't allowing me to multiply the amount
         sold with the price at it was classed as a sting. I added another column called sales, after I dropped the NaN
-        which was just the quantity purchased and the price. I then grouped the data (groupby) into months and made the
+            which was just the quantity purchased and the price. </p>
+
+        <p>I then grouped the data (groupby) into months and made the
         data into a viewable bar chart using Matplotlib. This was my first time using this and I found it very easy and
         I love that you are able to visualise data this was which would make it much more simple when explaining results
         to someone else. The screenshots shown are from the video I was following as Jupyter was very bugged out as I
         tried to save, this should be fixed by tomorrow. I will only show a few screenshots as the whole code will be
         available on my GitHub page.</p>
         <img class="merge" src="merge.PNG"><img class="bar" src="bar.PNG"><img class="nan" src="nan.PNG">
+        <hr>
+    </div>
+
+    <div id="fifteen">
+        <h3>10/05/2023 (Python)</h3>
+        <p>I have continued the work I have done from Python Pandas today by answering another question. The question
+            is 'What city had the most total sales in 2019?' I answered this by creating another column names Cities and
+            repeated the similar analysis I did last time for the months. I did run into a few issues which included all
+            the names being cluttered together at the bottom of the bar chart. This was fixed by stack overflow which
+            I learned I can style the x-axis to be vertical and the text size can be changed.</p>
+        <p>I created two functions which would be both city and state. I decided to create a different state one as there
+            was a couple of different cities which are named the same, this would make the analysis a lot more accurate.
+            To separate the city from the zip code nd all the other information, I used split which would be split at
+            the ',' and the state at the space. I had managed to use the f string which I have learned about in the past
+            to make the line of code alot shorter.</p>
+        <img class="barcity" src="barcity.PNG"><img class="city" src="city.PNG">
+        <hr>
     </div>
 </body>
 </html>

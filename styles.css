@@ -135,6 +135,15 @@ h1 {
     font-size: 25px;
 }
 
+#fifteen {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
+
+
 
 
 
@@ -249,6 +258,18 @@ h1 {
 }
 
 .bar {
+    position: relative;
+    width: 400px;
+    text-align: left;
+}
+
+.city {
+    position: relative;
+    width: 800px;
+    text-align: left;
+}
+
+.barcity {
     position: relative;
     width: 400px;
     text-align: left;
