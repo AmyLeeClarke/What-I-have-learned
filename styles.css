@@ -143,6 +143,13 @@ h1 {
     font-size: 25px;
 }
 
+#sixteen {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
 
 
 
@@ -272,5 +279,35 @@ h1 {
 .barcity {
     position: relative;
     width: 400px;
+    text-align: left;
+}
+
+.date {
+    position: relative;
+    width: 700px;
+    text-align: left;
+}
+
+.%% {
+    position: relative;
+    width: 400px;
+    text-align: left;
+}
+
+.between {
+    position: relative;
+    width: 600px;
+    text-align: left;
+}
+
+.not {
+    position: relative;
+    width: 600px;
+    text-align: left;
+}
+
+.stars {
+    position: relative;
+    width: 600px;
     text-align: left;
 }
