@@ -167,6 +167,14 @@ h1 {
     font-size: 25px;
 }
 
+#nineteen {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
+
 
 
 
@@ -339,5 +347,28 @@ h1 {
 .hour {
     position: relative;
     width: 800px;
+    text-align: left;
+}
+.group {
+    position: relative;
+    width: 600px;
+    text-align: left;
+}
+
+.common {
+    position: relative;
+    width: 400px;
+    text-align: left;
+}
+
+.quantgraph {
+    position: relative;
+    width: 400px;
+    text-align: left;
+}
+
+.overlay {
+    position: relative;
+    width: 400px;
     text-align: left;
 }
