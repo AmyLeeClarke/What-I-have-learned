@@ -15,57 +15,264 @@
             <p><strong>This page is designed as a diary for my progress in learning code and to hold myself accountable to do and
             continue learning. It is a place where I, and others, are able to come and check on my progress to see what material I have covered and which I am yet to learn.
             The code will mostly consist of Python and SQL.</strong></p>
+            <p>The dates start is ascending order, the newest entry will be closest to the top.</p>
             <hr>
         </div>
 
-    <div id="one">
-        <h3>12/04/2023 (Python)</h3>
-        <p>I have learned how to use the basics of Beautiful Soup and why it is important. It is able to be used to find specific
-            items in any website so that the data can be analysed.</p>
+    <div id="twenty">
+        <h3>19/05/2023 (SQL)</h3>
+        <p>Today I have focused on relationships between tables using MySQL workbench and command line. I have created
+            two separate tables with specific id's to specific people and orders which I used the JOIN function to create
+            a relationship between the two tables. I also used my new knowledge about cross and inner joins to interlink
+            these together. This is to allow for data analysis to be conducted using both sets of information. I have also
+            learned how to use the foreign key which only allows the input of 'real' id names and if any new orders were
+            places that wasn't assigned to a persons id then there would be an error and this data wouldn't be inserted. </p>
+        <img class="relationships" src="relationships.PNG"><img class="total" src="total.PNG">
+        <img class="join" src="join.PNG">
         <hr>
     </div>
 
 
 
-    <div id="two">
-        <h3>17/04/2023 (SQL)</h3>
-        <p>I have learned what MySQL and SQL is and what it does, downloaded everything I need to start this new course.
-        I have learned the basics of how to create databases and tables, how to access the data inside these tables and
-            DROP/ delete them. Also how to comment out code and write comments.</p>
+
+    <div id="nineteen">
+        <h3>18/05/2023 (Python)</h3>
+        <p>For the first half of the day I have focused on creating graphs and displaying data to answer the business
+            questions such as 'what products are mostly sold together?' For this I didn't create a graph I just displayed
+            the data and the numbers next to it as I thought this would be the best to display this type of data as we
+            were only after the product name and the numbers. To do this I had to write some code which displayed all
+            the duplicated items purchased together. This needed intertools and collections to be able to function so I
+            imported those, this was so that the program could count and gather the information from specific rows.
+            The ony problem with this is that it was showing multiple times in
+            the list. To solve this, thanks to stack overflow, I found a way to drop all the unnecessary duplicated items
+            which left me with clean data to view. I used the key function and set this to false so that all the duplicated
+            orders would be shown.
+            <p>The second data I wanted to show was how many of each product was sold in a bar chart. I used the knowledge
+            about matplotlib from the other graphs to help display and change how the graph looked and displayed. The final
+            graph I created was an overlay graph of a plot and bar chart. This allows for easy comparison between two rows.
+            The two rows I compared was the quantity of each product ordered and the price, this showed that the more
+            expensive a product was, the less it was purchased which was true in most of the cases according to the graph.</p>
+            <p>I did keep getting the same error of future warning however, I haven't yet discovered how to get rid of it,
+            all the code runs perfectly fine.</p>
+
+            <img class="group" src="group.PNG"><img class="common" src="common.PNG"><img class="quantgraph" src="quantgraph.PNG"><img class="overlay" src="overlay.PNG">
+
+        <p> The second half of my day consisted of creating a new Jupyter Notebook and scraping to find the title of each
+            hashtags on a website with the best hashtags to use for Depop selling using BeautifulSoup and Requests.
+            Monday I will be creating tables and analysing the data in more advanced details.</p>
         <hr>
     </div>
 
 
 
-    <div id="three">
-        <h3>18/04/2023 (SQL)</h3>
-        <p>Today I have gained the knowledge to use auto increments, not null and all the basics needed to create a database.
-            I completed an insert exercise where I created a database for employees, this is where their name, age and
-            employment status is kept, along with a primary key. </p>
-        <img class="employee" src="demo.PNG">
+
+
+    <div id="eighteen">
+        <h3>15/05/2023-16/05/2023 (SQL)</h3>
+        <p>Today and yesterday I focused on altering table and all the documentation which comes with it. I managed
+            to put this to the test creating and changing some random tables to practice. I have also learned check and
+            named constraints which will be very useful in the future if anything in a database needs to be updated and
+            or changed.</p>
         <hr>
     </div>
 
 
 
-    <div id="four">
-        <h3>19/04/2023 (SQL)</h3>
-        <p>Today I have focused on practicing MySQL skills, creating, reading, updating and deleting (CRUD) data to get
-            used to using the command line and workbench together. I found this fun and easy to do so far. I am currently
-            working with data on books and authors. I have also <br>learned how to use the CONCAT() function.</br></p>
-
-        <img class="book" src="book.PNG"> <img class="book2" src="book2.PNG"> <img class="book3" src="book3.PNG">
-        <hR>
-    </div>
 
 
-    <div id="five">
-        <h3>20/04/2023 (SQL)</h3>
-        <p>I have learned how to use the CONCAT and the SUBSTR functions both separately and combine to output initials
-            of listed authors.</p>
-        <img class="concat" src="concat.PNG">
+
+    <div id="seventeen">
+        <h3>12/05/2023 (Python)</h3>
+        <p>Today I have been focusing on analysing the given sales data which I have been doing the past week. I answered
+            the question 'What time should we display advertisements to maximise likelihood of customers buying product?'
+            To start answering this question I needed a new column which displayed the time of each order in just the hours
+            and minutes. To do this I used my skills from Python (before I started this diary) of DateTime to help separate
+            the times from the date. The results show the peak times for sales is both 11am and 7pm so the most efficient
+            time to advertise would be just before these times as it is the most likely to be seen by a lot more people.
+            The reason these times are peak might be because they are just as people are on lunch break or have just come
+            home from work. For this graph I used matplotlib again but instead of creating a bar chart I used a plot graph
+            to help get me used to the different ranged of charts.</p>
+        <img class="plot" src="plot.PNG"><img class="hour" src="hour.PNG">
         <hr>
     </div>
+
+
+
+
+
+        <div id="sixteen">
+        <h3>11/05/2023 (SQL)</h3>
+        <p>For the first half of my day I have learned all about the data and time functions and put these new skills
+            to test by creating a table with a couple of people with their name and date of birth and time of birth.
+            This allowed me to pick specific data from this table to practice these new functions. I have also learned
+            about decimal, float and double along with the difference between int, tinyint bigint, char, varchar,
+            curdate and time stamp. Most of these are to do with the amount of data they store. I have also focused
+            on update which allows me to find out, automatically, when a line in the table has been created and updated
+            which automatically updates the date and time. Date and time formatting was the best part I learned as there
+            are so many customizable options to work with using the documentation.</p>
+        <img class="date" src="date.PNG"><img class="%%" src="%%.PNG">
+
+        <p>The second half of my day I focused on learning comparison and logical operators. The main ones focused on was
+            <, >, !=, >=, <=, OR, AND, CASE, IS NULL, IN, BETWEEN. All of these have been put to the test using the people
+            and the bookshop database, so I could use the information to practice. These will be helpful in analysing future
+            databases as it allows for me to do specific comparisons easily and neatly.</p>
+        <img class="not" src="not.PNG"><img class="between" src="between.PNG"><img class="stars" src="stars.PNG">
+        <hr>
+    </div>
+
+
+
+
+
+    <div id="fifteen">
+        <h3>10/05/2023 (Python)</h3>
+        <p>I have continued the work I have done from Python Pandas today by answering another question. The question
+            is 'What city had the most total sales in 2019?' I answered this by creating another column names Cities and
+            repeated the similar analysis I did last time for the months. I did run into a few issues which included all
+            the names being cluttered together at the bottom of the bar chart. This was fixed by stack overflow which
+            I learned I can style the x-axis to be vertical and the text size can be changed.</p>
+        <p>I created two functions which would be both city and state. I decided to create a different state one as there
+            was a couple of different cities which are named the same, this would make the analysis a lot more accurate.
+            To separate the city from the zip code nd all the other information, I used split which would be split at
+            the ',' and the state at the space. I had managed to use the f string which I have learned about in the past
+            to make the line of code alot shorter.</p>
+        <img class="barcity" src="barcity.PNG"><img class="city" src="city.PNG">
+        <hr>
+    </div>
+
+
+
+
+
+    <div id="fourteen">
+        <h3>08/05/2023 (Python Pandas)</h3>
+        <p>Today I have really tested my Pandas and Python knowledge within a large data set of online sales for a company.
+        This includes items sold, price and id along with what month they were sold. I have followed a tutorial
+        online which helped me through this process. I first concatenated all the month files into one large csv file
+        so that I could analyse the data set as a whole. I then created a month column which would display the month,
+        as a number, which will allow me to see them as a group later on. I then ran into a couple of problems which
+        were solved by the use of static overflow. The problems were that some columns has a NaN (Not a Number)
+        as a whole column which I was able to group together to remove. This wasn't allowing me to multiply the amount
+        sold with the price at it was classed as a sting. I added another column called sales, after I dropped the NaN
+            which was just the quantity purchased and the price. </p>
+
+        <p>I then grouped the data (groupby) into months and made the
+        data into a viewable bar chart using Matplotlib. This was my first time using this and I found it very easy and
+        I love that you are able to visualise data this was which would make it much more simple when explaining results
+        to someone else. The screenshots shown are from the video I was following as Jupyter was very bugged out as I
+        tried to save, this should be fixed by tomorrow. I will only show a few screenshots as the whole code will be
+        available on my GitHub page.</p>
+        <img class="merge" src="merge.PNG"><img class="bar" src="bar.PNG"><img class="nan" src="nan.PNG">
+        <hr>
+    </div>
+
+
+
+
+
+    <div id="thirteen">
+        <h3>04/05/2023 and 05/05/2023 (SQL)</h3>
+        <p>Yesterday I focused on trying to analyse my vinted reviews using CSV and Pandas on Pycharm however, I was
+            finding limited resources online on how to fix the errors in my code. I am still working on getting this
+            fixed. In the meantime, today, I have imported the review data into MySQL and created a new table and
+            database. From this I have been able to put to the test all of my new SQL skills I have been learning. I have
+            managed to analyse and group how many reviews I get to see where my strengths are when posting items
+            using this app. In previous days I had used web scraping to gather the data from Vinted which I used and
+            formatted it to be able to be inserted into the SQl table. I have found how many automated reviews I have
+            got and how many people have complimented the fast shipping. The images show which other groups I decided
+            to do.</p>
+        <img class="buyer" src="buyer.PNG"><p>40/212 reviews are me as the buyer so these do not matter.</p><img class="great" src="great.PNG"><p>55/212 said the word 'great' which indicates that they are happy with their purchase and with me as a seller as a whole.</p>
+        <img class="postage" src="postage.PNG"><img class="quick" src="quick.PNG"><p>27/212 total specifically mentioned the postage, along with the speed in which the items were sent out.</p>
+        <img class="love" src="love.PNG"><p>51/212 mentioned 'love' as either 'lovely seller' or 'love the item' which is one of my strongest attributes.</p>
+        <img class="auto" src="auto.PNG"><p>40/212 reviews are automated which means I get a 5 star positive review if they don't leave one, meaning that this group is not the data I am looking for when it comes to finding out my strong points.</p>
+        <hr>
+    </div>
+
+
+
+
+
+    <div id="twelve">
+        <h3>03/05/2023 (Python)</h3>
+        <p>Today I have focused on learning the basics of running a website server using flask, following on from the
+            28th. The course I was watching was outdated, so I went over to YouTube which helped me get started. With
+            this I learned how to create views and routes along with rendering HTML, URL parameters and query parameters.
+            I have found using flask difficult because of the outdated courses however, I will be focusing on this on the
+            days I learn Python whilst continuing to work on SQL to refine my skills and put them to test.</p>
+        <img class="flask" src="flask.PNG">
+        <hr>
+    </div>
+
+
+
+
+
+    <div id="eleven">
+        <h3>02/05/2023 (SQL)</h3>
+        <p>I have learned some more functions today which consist of min and max, sub queries, group by and how to use
+            them interchangeably. I found the sub queries the most difficult as it has to have two different selects which
+            run separate but with some practice using the bookshop database, I am able to use it comfortably.</p>
+        <img class="avg" src="avg.PNG"><img class="group_by" src="group_by.PNG"><img class="subq" src="subq.PNG">
+        <hr>
+    </div>
+
+
+
+
+    <div id="ten">
+        <h3>28/04/2023 (Python)</h3>
+        <p>Today I hve learned how to create a web server using flask and understand some basic code to run on the
+            command line which will help me in the future, such as pip installing packages. I have also learned and put
+            into practice nesting, passing functions and Python decorators which I found relatively simple and will be
+            a nice addition to my Python knowledge.</p>
+        <hr>
+    </div>
+
+
+
+
+    <div id="nine">
+        <h3>27/04/2023 (SQL)</h3>
+        <p>I have learned how to use distinct and order by, limit and like functions by using the bookshop database.
+            I am finding learning SQL easier than Python at the moment as I get much more completed. I have learned how
+            to integrate all of these new functions to get the specific data asked for I have also had practice with
+            searching for a lie function which has either a % or an _ which would usually produce an error..</p>
+        <img class="order_by" src="order_by.PNG"><img class="like" src="like.PNG"><img class="%_" src="%_.PNG">
+        <hr>
+    </div>
+
+
+
+
+
+    <div id="eight">
+        <h3>26/04/2023 (Python)</h3>
+        <p>Today I have learned how more about how to navigate selenium. I have created a projects which holds all of my
+        reviews from my Vinted account over the past two years. With this data, I am going to sort them into categories
+        such as 'sent on time' to see my strengths and weaknesses when it comes to people purchasing from my store.</p>
+        <img class="vinted" src="vinted.PNG">
+        <hr>
+    </div>
+
+
+
+
+
+    <div id="seven">
+        <h3>24/04/2022 and 25/04/2023 (Python)</h3>
+        <p>Today and yesterday I have struggled with using Selenium with Pycharm. I know that some lessons from the
+            course I'm taking are out of date. I spent all of yesterday researching and trying to find the best way to
+            use selenium, this included, how to make the browser stay open for more than one split second. I found two
+            ways of doing this, one was to import the time module to make it close in 1000 seconds, or the webdriver
+            options; which I prefer as it's more stable. I have finally got the base code down with a lot of practice
+            and researching. I have made a short program that allows me to Google anything I type automatically through
+            selenium.</p>
+        <img class="selen" src="selen.PNG">
+    </div>
+    <hr>
+
+
+
 
 
     <div id="six">
@@ -93,195 +300,65 @@
     </div>
 
 
-    <div id="seven">
-        <h3>24/04/2022 and 25/04/2023 (Python)</h3>
-        <p>Today and yesterday I have struggled with using Selenium with Pycharm. I know that some lessons from the
-            course I'm taking are out of date. I spent all of yesterday researching and trying to find the best way to
-            use selenium, this included, how to make the browser stay open for more than one split second. I found two
-            ways of doing this, one was to import the time module to make it close in 1000 seconds, or the webdriver
-            options; which I prefer as it's more stable. I have finally got the base code down with a lot of practice
-            and researching. I have made a short program that allows me to Google anything I type automatically through
-            selenium.</p>
-        <img class="selen" src="selen.PNG">
-    </div>
-    <hr>
 
 
-    <div id="eight">
-    <h3>26/04/2023 (Python)</h3>
-    <p>Today I have learned how more about how to navigate selenium. I have created a projects which holds all of my
-        reviews from my Vinted account over the past two years. With this data, I am going to sort them into categories
-        such as 'sent on time' to see my strengths and weaknesses when it comes to people purchasing from my store.</p>
-        <img class="vinted" src="vinted.PNG">
+
+
+
+
+
+
+    <div id="five">
+        <h3>20/04/2023 (SQL)</h3>
+        <p>I have learned how to use the CONCAT and the SUBSTR functions both separately and combine to output initials
+            of listed authors.</p>
+        <img class="concat" src="concat.PNG">
         <hr>
     </div>
 
 
-    <div id="nine">
-        <h3>27/04/2023 (SQL)</h3>
-        <p>I have learned how to use distinct and order by, limit and like functions by using the bookshop database.
-            I am finding learning SQL easier than Python at the moment as I get much more completed. I have learned how
-            to integrate all of these new functions to get the specific data asked for I have also had practice with
-            searching for a lie function which has either a % or an _ which would usually produce an error..</p>
-        <img class="order_by" src="order_by.PNG"><img class="like" src="like.PNG"><img class="%_" src="%_.PNG">
+    <div id="four">
+        <h3>19/04/2023 (SQL)</h3>
+        <p>Today I have focused on practicing MySQL skills, creating, reading, updating and deleting (CRUD) data to get
+            used to using the command line and workbench together. I found this fun and easy to do so far. I am currently
+            working with data on books and authors. I have also <br>learned how to use the CONCAT() function.</br></p>
+
+        <img class="book" src="book.PNG"> <img class="book2" src="book2.PNG"> <img class="book3" src="book3.PNG">
+        <hR>
+    </div>
+
+
+
+    <div id="three">
+        <h3>18/04/2023 (SQL)</h3>
+        <p>Today I have gained the knowledge to use auto increments, not null and all the basics needed to create a database.
+            I completed an insert exercise where I created a database for employees, this is where their name, age and
+            employment status is kept, along with a primary key. </p>
+        <img class="employee" src="demo.PNG">
         <hr>
     </div>
 
 
-    <div id="ten">
-        <h3>28/04/2023 (Python)</h3>
-        <p>Today I hve learned how to create a web server using flask and understand some basic code to run on the
-            command line which will help me in the future, such as pip installing packages. I have also learned and put
-            into practice nesting, passing functions and Python decorators which I found relatively simple and will be
-            a nice addition to my Python knowledge.</p>
+
+
+    <div id="two">
+        <h3>17/04/2023 (SQL)</h3>
+        <p>I have learned what MySQL and SQL is and what it does, downloaded everything I need to start this new course.
+        I have learned the basics of how to create databases and tables, how to access the data inside these tables and
+            DROP/ delete them. Also how to comment out code and write comments.</p>
         <hr>
     </div>
 
 
-    <div id="eleven">
-        <h3>02/05/2023 (SQL)</h3>
-        <p>I have learned some more functions today which consist of min and max, sub queries, group by and how to use
-            them interchangeably. I found the sub queries the most difficult as it has to have two different selects which
-            run separate but with some practice using the bookshop database, I am able to use it comfortably.</p>
-        <img class="avg" src="avg.PNG"><img class="group_by" src="group_by.PNG"><img class="subq" src="subq.PNG">
+
+
+    <div id="one">
+        <h3>12/04/2023 (Python)</h3>
+        <p>I have learned how to use the basics of Beautiful Soup and why it is important. It is able to be used to find specific
+            items in any website so that the data can be analysed.</p>
         <hr>
     </div>
 
-    <div id="twelve">
-        <h3>03/05/2023 (Python)</h3>
-        <p>Today I have focused on learning the basics of running a website server using flask, following on from the
-            28th. The course I was watching was outdated, so I went over to YouTube which helped me get started. With
-            this I learned how to create views and routes along with rendering HTML, URL parameters and query parameters.
-            I have found using flask difficult because of the outdated courses however, I will be focusing on this on the
-            days I learn Python whilst continuing to work on SQL to refine my skills and put them to test.</p>
-        <img class="flask" src="flask.PNG">
-        <hr>
-    </div>
 
-    <div id="thirteen">
-        <h3>04/05/2023 and 05/05/2023 (SQL)</h3>
-        <p>Yesterday I focused on trying to analyse my vinted reviews using CSV and Pandas on Pycharm however, I was
-            finding limited resources online on how to fix the errors in my code. I am still working on getting this
-            fixed. In the meantime, today, I have imported the review data into MySQL and created a new table and
-            database. From this I have been able to put to the test all of my new SQL skills I have been learning. I have
-            managed to analyse and group how many reviews I get to see where my strengths are when posting items
-            using this app. In previous days I had used web scraping to gather the data from Vinted which I used and
-            formatted it to be able to be inserted into the SQl table. I have found how many automated reviews I have
-            got and how many people have complimented the fast shipping. The images show which other groups I decided
-            to do.</p>
-        <img class="buyer" src="buyer.PNG"><p>40/212 reviews are me as the buyer so these do not matter.</p><img class="great" src="great.PNG"><p>55/212 said the word 'great' which indicates that they are happy with their purchase and with me as a seller as a whole.</p>
-        <img class="postage" src="postage.PNG"><img class="quick" src="quick.PNG"><p>27/212 total specifically mentioned the postage, along with the speed in which the items were sent out.</p>
-        <img class="love" src="love.PNG"><p>51/212 mentioned 'love' as either 'lovely seller' or 'love the item' which is one of my strongest attributes.</p>
-        <img class="auto" src="auto.PNG"><p>40/212 reviews are automated which means I get a 5 star positive review if they don't leave one, meaning that this group is not the data I am looking for when it comes to finding out my strong points.</p>
-        <hr>
-    </div>
-
-    <div id="fourteen">
-        <h3>08/05/2023 (Python Pandas)</h3>
-        <p>Today I have really tested my Pandas and Python knowledge within a large data set of online sales for a company.
-        This includes items sold, price and id along with what month they were sold. I have followed a tutorial
-        online which helped me through this process. I first concatenated all the month files into one large csv file
-        so that I could analyse the data set as a whole. I then created a month column which would display the month,
-        as a number, which will allow me to see them as a group later on. I then ran into a couple of problems which
-        were solved by the use of static overflow. The problems were that some columns has a NaN (Not a Number)
-        as a whole column which I was able to group together to remove. This wasn't allowing me to multiply the amount
-        sold with the price at it was classed as a sting. I added another column called sales, after I dropped the NaN
-            which was just the quantity purchased and the price. </p>
-
-        <p>I then grouped the data (groupby) into months and made the
-        data into a viewable bar chart using Matplotlib. This was my first time using this and I found it very easy and
-        I love that you are able to visualise data this was which would make it much more simple when explaining results
-        to someone else. The screenshots shown are from the video I was following as Jupyter was very bugged out as I
-        tried to save, this should be fixed by tomorrow. I will only show a few screenshots as the whole code will be
-        available on my GitHub page.</p>
-        <img class="merge" src="merge.PNG"><img class="bar" src="bar.PNG"><img class="nan" src="nan.PNG">
-        <hr>
-    </div>
-
-    <div id="fifteen">
-        <h3>10/05/2023 (Python)</h3>
-        <p>I have continued the work I have done from Python Pandas today by answering another question. The question
-            is 'What city had the most total sales in 2019?' I answered this by creating another column names Cities and
-            repeated the similar analysis I did last time for the months. I did run into a few issues which included all
-            the names being cluttered together at the bottom of the bar chart. This was fixed by stack overflow which
-            I learned I can style the x-axis to be vertical and the text size can be changed.</p>
-        <p>I created two functions which would be both city and state. I decided to create a different state one as there
-            was a couple of different cities which are named the same, this would make the analysis a lot more accurate.
-            To separate the city from the zip code nd all the other information, I used split which would be split at
-            the ',' and the state at the space. I had managed to use the f string which I have learned about in the past
-            to make the line of code alot shorter.</p>
-        <img class="barcity" src="barcity.PNG"><img class="city" src="city.PNG">
-        <hr>
-    </div>
-
-    <div id="sixteen">
-        <h3>11/05/2023 (SQL)</h3>
-        <p>For the first half of my day I have learned all about the data and time functions and put these new skills
-            to test by creating a table with a couple of people with their name and date of birth and time of birth.
-            This allowed me to pick specific data from this table to practice these new functions. I have also learned
-            about decimal, float and double along with the difference between int, tinyint bigint, char, varchar,
-            curdate and time stamp. Most of these are to do with the amount of data they store. I have also focused
-            on update which allows me to find out, automatically, when a line in the table has been created and updated
-            which automatically updates the date and time. Date and time formatting was the best part I learned as there
-            are so many customizable options to work with using the documentation.</p>
-        <img class="date" src="date.PNG"><img class="%%" src="%%.PNG">
-
-        <p>The second half of my day I focused on learning comparison and logical operators. The main ones focused on was
-            <, >, !=, >=, <=, OR, AND, CASE, IS NULL, IN, BETWEEN. All of these have been put to the test using the people
-            and the bookshop database, so I could use the information to practice. These will be helpful in analysing future
-            databases as it allows for me to do specific comparisons easily and neatly.</p>
-        <img class="not" src="not.PNG"><img class="between" src="between.PNG"><img class="stars" src="stars.PNG">
-        <hr>
-    </div>
-
-    <div id="seventeen">
-        <h3>12/05/2023 (Python)</h3>
-        <p>Today I have been focusing on analysing the given sales data which I have been doing the past week. I answered
-            the question 'What time should we display advertisements to maximise likelihood of customers buying product?'
-            To start answering this question I needed a new column which displayed the time of each order in just the hours
-            and minutes. To do this I used my skills from Python (before I started this diary) of DateTime to help separate
-            the times from the date. The results show the peak times for sales is both 11am and 7pm so the most efficient
-            time to advertise would be just before these times as it is the most likely to be seen by a lot more people.
-            The reason these times are peak might be because they are just as people are on lunch break or have just come
-            home from work. For this graph I used matplotlib again but instead of creating a bar chart I used a plot graph
-            to help get me used to the different ranged of charts.</p>
-        <img class="plot" src="plot.PNG"><img class="hour" src="hour.PNG">
-        <hr>
-    </div>
-
-    <div id="eighteen">
-        <h3>15/05/2023-16/05/2023 (SQL)</h3>
-        <p>Today and yesterday I focused on altering table and all the documentation which comes with it. I managed
-            to put this to the test creating and changing some random tables to practice. I have also learned check and
-            named constraints which will be very useful in the future if anything in a database needs to be updated and
-            or changed.</p>
-        <hr>
-    </div>
-
-    <div id="nineteen">
-        <h3>18/05/2023 (Python)</h3>
-        <p>For the first half of the day I have focused on creating graphs and displaying data to answer the business
-            questions such as 'what products are mostly sold together?' For this I didn't create a graph I just displayed
-            the data and the numbers next to it as I thought this would be the best to display this type of data as we
-            were only after the product name and the numbers. To do this I had to write some code which displayed all
-            the duplicated items purchased together. This needed intertools and collections to be able to function so I
-            imported those, this was so that the program could count and gather the information from specific rows.
-            The ony problem with this is that it was showing multiple times in
-            the list. To solve this, thanks to stack overflow, I found a way to drop all the unnecessary duplicated items
-            which left me with clean data to view. I used the key function and set this to false so that all the duplicated
-            orders would be shown.
-            <p>The second data I wanted to show was how many of each product was sold in a bar chart. I used the knowledge
-            about matplotlib from the other graphs to help display and change how the graph looked and displayed. The final
-            graph I created was an overlay graph of a plot and bar chart. This allows for easy comparison between two rows.
-            The two rows I compared was the quantity of each product ordered and the price, this showed that the more
-            expensive a product was, the less it was purchased which was true in most of the cases according to the graph.</p>
-            <p>I did keep getting the same error of future warning however, I haven't yet discovered how to get rid of it,
-            all the code runs perfectly fine.</p>
-            <img class="group" src="group.PNG"><img class="common" src="common.PNG"><img class="quantgraph" src="quantgraph.PNG"><img class="overlay" src="overlay.PNG">
-        <p> The second half of my day consisted of creating a new Jupyter Notebook and scraping to find the title of each
-            hashtags on a website with the best hashtags to use for Depop selling using BeautifulSoup and Requests.
-            Monday I will be creating tables and analysing the data in more advanced details.</p>
-        <hr>
-    </div>
 </body>
 </html>
