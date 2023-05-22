@@ -183,7 +183,13 @@ h1 {
     font-size: 25px;
 }
 
-
+#twone {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
 
 
 
@@ -392,11 +398,14 @@ h1 {
 .total {
     position: relative;
     width: 600px;
-
 }
 .join {
     position: relative;
     width: 1000px;
     text-align: left;
-
+}
+.toys {
+    position: relative;
+    width: 400px;
+    text-align: left;
 }
