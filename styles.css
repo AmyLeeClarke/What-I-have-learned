@@ -199,6 +199,14 @@ h1 {
     font-size: 25px;
 }
 
+#twthree {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
+
 
 
 
@@ -432,6 +440,12 @@ h1 {
 }
 
 .diss {
+    position: relative;
+    width: 700px;
+    text-align: left;
+}
+
+.movies {
     position: relative;
     width: 700px;
     text-align: left;
