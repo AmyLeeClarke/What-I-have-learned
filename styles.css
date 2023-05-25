@@ -206,6 +206,13 @@ h1 {
     text-align: left;
     font-size: 25px;
 }
+#twfour {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
 
 
 
@@ -446,6 +453,16 @@ h1 {
 }
 
 .movies {
+    position: relative;
+    width: 700px;
+    text-align: left;
+}
+.if {
+    position: relative;
+    width: 600px;
+    text-align: left;
+}
+.average {
     position: relative;
     width: 700px;
     text-align: left;
