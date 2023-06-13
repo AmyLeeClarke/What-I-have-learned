@@ -258,6 +258,13 @@ h1 {
     text-align: left;
     font-size: 25px;
 }
+#thone {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
 
 
 
@@ -565,5 +572,15 @@ h1 {
 .excel {
     position: relative;
     width: 500px;
+    text-align: left;
+}
+.table1 {
+    position: relative;
+    width: 300px;
+    text-align: left;
+}
+.table2 {
+    position: relative;
+    width: 300px;
     text-align: left;
 }
