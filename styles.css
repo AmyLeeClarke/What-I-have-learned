@@ -279,6 +279,13 @@ h1 {
     text-align: left;
     font-size: 25px;
 }
+#thfour {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
 
 
 
@@ -606,5 +613,10 @@ h1 {
 .joins {
     position: relative;
     width: 500px;
+    text-align: left;
+}
+.netflix {
+    position: relative;
+    width: 1200px;
     text-align: left;
 }
