@@ -328,6 +328,13 @@ h1 {
     text-align: left;
     font-size: 25px;
 }
+#foone {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
 
 
 
@@ -688,6 +695,16 @@ h1 {
     text-align: left;
 }
 .ow {
+    position: relative;
+    width: 500px;
+    text-align: left;
+}
+.occ {
+    position: relative;
+    width: 900px;
+    text-align: left;
+}
+.occu {
     position: relative;
     width: 500px;
     text-align: left;
