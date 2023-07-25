@@ -342,6 +342,13 @@ h1 {
     text-align: left;
     font-size: 25px;
 }
+#fothree {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
 
 
 
@@ -724,5 +731,10 @@ h1 {
 .disorder {
     position: relative;
     width: 900px;
+    text-align: left;
+}
+.duration {
+    position: relative;
+    width: 400px;
     text-align: left;
 }
