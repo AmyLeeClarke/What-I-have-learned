@@ -349,6 +349,13 @@ h1 {
     text-align: left;
     font-size: 25px;
 }
+#fofour {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
 
 
 
@@ -736,5 +743,10 @@ h1 {
 .duration {
     position: relative;
     width: 400px;
+    text-align: left;
+}
+.quality {
+    position: relative;
+    width: 800px;
     text-align: left;
 }
