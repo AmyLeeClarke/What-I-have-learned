@@ -356,6 +356,13 @@ h1 {
     text-align: left;
     font-size: 25px;
 }
+#fofive {
+    margin-left: 10px;
+    width: 1800px;
+    color: #dad7cd;
+    text-align: left;
+    font-size: 25px;
+}
 
 
 
@@ -746,6 +753,11 @@ h1 {
     text-align: left;
 }
 .quality {
+    position: relative;
+    width: 800px;
+    text-align: left;
+}
+.pa {
     position: relative;
     width: 800px;
     text-align: left;
